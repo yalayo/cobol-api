@@ -4,3 +4,7 @@ hidden = ["main"]
 
 [nix]
 channel = "stable-21_11"
+
+[deployment]
+deploymentTarget = "cloudrun"
+run = ["sh", "-c", "./microservice"]
