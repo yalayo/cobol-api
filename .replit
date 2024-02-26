@@ -1,5 +1,5 @@
-compile = ["cobc", "-x", "-free", "main.cob"]
-run = "./main"
+compile = ["cobc", "-x", "-free", "src/microservice.cbl"]
+run = "./microservice"
 hidden = ["main"]
 
 [nix]
